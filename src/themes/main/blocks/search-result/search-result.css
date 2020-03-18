@@ -1,0 +1,16 @@
+@import url(__head/__head.css);
+@import url(__title/__title.css);
+@import url(__analyze//__analyze.css);
+@import url(__list/__list.css);
+@import url(__card/__card.css);
+@import url(__button/__button.css);
+@import url(__link/__link.css);
+
+.search-result {
+    max-width: 1232px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+}

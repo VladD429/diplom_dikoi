@@ -1,0 +1,5 @@
+@import url(__avatar/__avatar.css);
+
+.about {
+    display: flex;
+}

@@ -1,0 +1,7 @@
+.menu__link_unactive {
+    color: #B6BCBF;
+}
+
+.menu__link_unactive:active {
+    color: #FFFFFF;
+}

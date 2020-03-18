@@ -19,30 +19,30 @@ module.exports = {
                     loader: "babel-loader"
                 }
             },
-    {
+            {
                 test: /\.css$/,
                 use:  [MiniCssExtractPlugin.loader, 'css-loader', 'postcss-loader']
              },
              {
-                test: /\.(png|jpe?g|gif)$/i,
-                use: [
-                  {
-                    loader: 'file-loader',
-                  },
-                ],
-              },
-              {
-                test: /\.(png|jpg|gif|ico|svg)$/i,
-                use: [
-                     'file-loader?name=images/[name].[ext]',
-                     {
-                         loader: 'image-webpack-loader',
-                         options: {
-                             disable: true,
-                        }
-                     },
-                ],
+              test: /\.(png|jpe?g|gif)$/i,
+              use: [
+                {
+                  loader: 'file-loader',
                 },
+              ],
+            },
+          {
+              test: /\.(png|jpg|gif|ico|svg)$/i,
+              use: [
+                   'file-loader?name=images/[name].[ext]',
+                   {
+                       loader: 'image-webpack-loader',
+                       options: {
+                           disable: true,
+                      }
+                   },
+              ],
+              },
                 {
                 test: /\.(eot|ttf|woff|woff2)$/,
                 loader: 'file-loader?name=vendor/[name].[ext]'
@@ -50,7 +50,7 @@ module.exports = {
         ]
     },
     plugins: [
-        new MiniCssExtractPlugin({filename: 'style.[contenthash].css',}),
+        new MiniCssExtractPlugin({filename: '[name].[contenthash].css',}),
         new HtmlWebpackPlugin({ 
             inject: false,
             template: './src/index.html',

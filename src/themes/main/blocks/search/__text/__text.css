@@ -1,0 +1,12 @@
+.search__text {
+    position: absolute;
+    top: 320px;
+    transform: translateX(-5%);
+    width: 545px;;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
