@@ -6,7 +6,6 @@
 @import url(blocks/search/search.css);
 @import url(blocks/search-result/search-result.css);
 @import url(blocks/about/about.css);
-@import url(../about/about.css);
 
 body {
   background-color: #E5E5E5;
