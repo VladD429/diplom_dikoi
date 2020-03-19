@@ -5,7 +5,10 @@ const WebpackMd5Hash = require('webpack-md5-hash');
 const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin');
 
 module.exports = {
-    entry: { main: './src/index.js' },
+    entry: { 
+        main: './src/index.js',
+        about: './src/about.js',
+},
     output: {
         path: path.resolve(__dirname, 'dist'),
         filename: '[name].[chunkhash].js'
@@ -55,6 +58,11 @@ module.exports = {
             inject: false,
             template: './src/index.html',
             filename: 'index.html'
+        }),
+        new HtmlWebpackPlugin({ 
+            inject: false,
+            template: './src/about.html',
+            filename: 'about.html'
         }),
         new WebpackMd5Hash(),
         new OptimizeCssAssetsPlugin({
