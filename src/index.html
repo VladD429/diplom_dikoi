@@ -7,7 +7,7 @@
     <meta name="description" content="Cервис для анализа происходящих в мире событий. Его задача — установить, насколько популярны новости на определённую тему.">
     <meta name="author" content="VladD">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Diplom</title>
+    <title>Main</title>
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.main.css %>">
 </head>
 
@@ -17,7 +17,7 @@
             <span class="header__title">NewsAnalyzer</span>
             <ul class="menu">
                 <li class="menu__item menu__item_active"><a class="menu__link" href="#">Главная</a></li>
-                <li class="menu__item"><a class="menu__link menu__link_unactive" href="src/about.html">О проекте</a></li>
+                <li class="menu__item"><a class="menu__link menu__link_unactive" href="/src/about.html">О проекте</a></li>
             </ul>
         </header>
 
@@ -31,45 +31,48 @@
             </form>
         </section>
 
-        <section class="search-result">
-            <div class="search-result__head">
-                <h2 class="search-result__title">Результаты поиска</h2>
-                <p class="search-result__analyze"><a class="search-result__link" href="#">Посмотреть аналитику &gt;</a></p>
-            </div>
-            <div class="search-result__list">
-                <div class="search-result__card">
+        <div class="search-result__container">
+            <section class="search-result">
+                <div class="search-result__head">
+                    <h2 class="search-result__title">Результаты поиска</h2>
+                    <p class="search-result__analyze"><a class="search-result__link" href="#">Посмотреть аналитику &gt;</a></p>
+                </div>
+                <div class="search-result__list">
+                    <div class="search-result__card">
 
+                    </div>
+                    <div class="search-result__card">
+                        
+                    </div>
+                    <div class="search-result__card">
+                        
+                    </div>
+                    <div class="search-result__card">
+                        
+                    </div>
+                    <div class="search-result__card">
+                        
+                    </div>
+                    <div class="search-result__card">
+                        
+                    </div>
                 </div>
-                <div class="search-result__card">
-                    
-                </div>
-                <div class="search-result__card">
-                    
-                </div>
-                <div class="search-result__card">
-                    
-                </div>
-                <div class="search-result__card">
-                    
-                </div>
-                <div class="search-result__card">
-                    
-                </div>
-            </div>
-            <button class="search-result__button">Показать еще</button>
-        </section>
+                <button class="search-result__button">Показать еще</button>
+            </section>
+        </div>    
         <section class="about">
+        
             <div class="about__avatar">
-                
+                <img src="<%=require('./images/avatar.svg').default%>" alt="main page avatar" class="about__photo">
             </div>
             <div class="about__content">
                 <h1 class="search-result__title">Об авторе</h1>
-                <p class="about__text">Это блок с описаением автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владете.
-                    Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+                <p class="about__text">Это блок с описаением автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владете.</p>
+                <p class="about__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
             </div>
         </section>
     </div>
-        <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+        <script src="/dist/main.31b88c345acc1793c407.js"></script>
 </body>
 
 </html>

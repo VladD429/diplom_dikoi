@@ -5,6 +5,7 @@
 @import url(__card/__card.css);
 @import url(__button/__button.css);
 @import url(__link/__link.css);
+@import url(__container/__container.css);
 
 .search-result {
     max-width: 1232px;

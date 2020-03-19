@@ -1,5 +1,11 @@
 @import url(__avatar/__avatar.css);
+@import url(__content/__content.css);
+@import url(__text/__text.css );
 
 .about {
+    background: #FFFFFF;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    padding-left: 104px;
     display: flex;
 }
