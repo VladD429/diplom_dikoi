@@ -1,7 +1,9 @@
 import "./themes/about/about.css";
 
+import "../node_modules/swiper/css/swiper.css";
+ 
 import Swiper from 'swiper';
-import "../node_modules/swiper/css/swiper.min.css";
+
 const swiper = new Swiper('.swiper-container', {
     slidesPerView: 3,
     spaceBetween: 30,
@@ -10,4 +12,4 @@ const swiper = new Swiper('.swiper-container', {
       clickable: true,
     },
   });
-import "../node_modules/swiper/js/swiper.min.js";
+
