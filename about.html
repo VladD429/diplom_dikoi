@@ -10,12 +10,52 @@
     <title>About</title>
     <base target="_blank">
     <link rel="stylesheet" href="about.248383acfc83e7fdf762.css">
+    <link rel="stylesheet" href="../node_modules/swiper/css/swiper.min.css">
+
+  <!-- Demo styles -->
+  <style>
+    html, body {
+      position: relative;
+      height: 100%;
+    }
+    body {
+      background: #eee;
+      font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      color:#000;
+      margin: 0;
+      padding: 0;
+    }
+    .swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+    .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+  </style>
 </head>
 
 <body>
-    <div class="root">
+    <!-- <div class="root">
 
-        <header class="header">
+         <header class="header">
             <span class="header__title">NewsAnalyzer</span>
             <nav>
                 <ul class="menu">
@@ -27,7 +67,7 @@
 
         <section class="about">
             <div class="about__avatar">
-                <!-- <img src="images/avatar.svg" alt="main page avatar" class="about__photo"> -->
+                <img src="images/avatar.png" alt="main page avatar" class="about__photo">
             </div>
             <div class="about__content">
                 <h1 class="search-result__title">Об авторе</h1>
@@ -35,8 +75,46 @@
                 <p class="about__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
             </div>
         </section>
+
+
+
+    </div> -->
+
+<!-- Swiper -->
+<div class="swiper-container">
+    <div class="swiper-wrapper">
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+      <div class="swiper-slide">Slide 4</div>
+      <div class="swiper-slide">Slide 5</div>
+      <div class="swiper-slide">Slide 6</div>
+      <div class="swiper-slide">Slide 7</div>
+      <div class="swiper-slide">Slide 8</div>
+      <div class="swiper-slide">Slide 9</div>
+      <div class="swiper-slide">Slide 10</div>
+    </div>
+    <!-- Add Pagination -->
+    <div class="swiper-pagination"></div>
+  </div>
+
+  <!-- Swiper JS -->
+  <script src="../node_modules/swiper/js/swiper.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper('.swiper-container', {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+    });
+  </script>
     
     <script src="about.8ac4b0424fa40cfcae95.js"></script>
+    
     
 </body>
 
