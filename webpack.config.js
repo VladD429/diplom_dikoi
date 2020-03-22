@@ -41,6 +41,7 @@ module.exports = {
                    {
                        loader: 'image-webpack-loader',
                        options: {
+                        bypassOnDebug: true,
                            disable: true,
                       }
                    },
@@ -62,7 +63,8 @@ module.exports = {
         new HtmlWebpackPlugin({ 
             inject: false,
             template: './src/about.html',
-            filename: 'about.html'
+            filename: 'about.html',
+            chunks: 'about.html'
         }),
         new WebpackMd5Hash(),
         new OptimizeCssAssetsPlugin({

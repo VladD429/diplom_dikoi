@@ -1,1 +1,7 @@
-@import url(./blocks/__title/__title.css);
+@import url(../../vendor/font.css);
+@import url(../../vendor/normalize.css);
+@import url(../main/blocks/root/root.css);
+@import url(../main/blocks/header/header.css);
+@import url(../main/blocks/menu/menu.css);
+@import url(../main/blocks/about/about.css);
+@import url(./swiper-container/swiper-container.css);

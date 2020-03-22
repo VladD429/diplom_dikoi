@@ -5,7 +5,10 @@
 @import url(blocks/menu/menu.css);
 @import url(blocks/search/search.css);
 @import url(blocks/search-result/search-result.css);
+@import url(blocks/footer/footer.css);
 @import url(blocks/about/about.css);
+
+
 
 body {
   background-color: #E5E5E5;
