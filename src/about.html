@@ -10,8 +10,7 @@
     <title>About</title>
     <base target="_blank">
     <link rel="stylesheet" href="<%=htmlWebpackPlugin.files.chunks.about.css %>">
-    <link rel="stylesheet" href="../node_modules/swiper/css/swiper.min.css">
-
+    
   <!-- Demo styles -->
   <style>
     html, body {
@@ -100,20 +99,19 @@
 
   <!-- Swiper JS -->
   <script src="../node_modules/swiper/js/swiper.min.js"></script>
-
-  <!-- Initialize Swiper -->
-  <script>
-    var swiper = new Swiper('.swiper-container', {
-      slidesPerView: 3,
-      spaceBetween: 30,
-      pagination: {
-        el: '.swiper-pagination',
-        clickable: true,
-      },
-    });
-  </script>
     
     <script src="<%= htmlWebpackPlugin.files.chunks.about.entry %>"></script>
+
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+          slidesPerView: 3,
+          spaceBetween: 30,
+          pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+          },
+        });
+      </script>
     
     
 </body>

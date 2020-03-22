@@ -66,6 +66,6 @@ module.exports = {
                     preset: ['default'],
             },
             canPrint: true
-    })
+    }),
     ]
 };
