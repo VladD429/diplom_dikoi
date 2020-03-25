@@ -3,5 +3,5 @@
     justify-content: center;
     grid-template-columns: repeat(3, 400px);
     grid-gap: 16px 16px;
-    margin: 64px 0px;
+    margin-bottom: 64px ;
 }

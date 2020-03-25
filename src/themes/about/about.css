@@ -4,3 +4,14 @@
 @import url(../main/blocks/header/header.css);
 @import url(../main/blocks/menu/menu.css);
 @import url(../main/blocks/about/about.css);
+@import url(../main/blocks/footer/footer.css);
+@import url(../main/blocks/search-result/search-result.css);
+@import url(blocks/swiper-container/swiper-container.css);
+@import url(blocks/swiper-slide/swiper-slide.css);
+@import url(blocks/swiper-button/swiper-button.css);
+@import url(blocks/swiper-pagination/swiper-pagination.css);
+@import url(blocks/swiper-wrapper/swiper-wrapper.css);
+@import url(blocks/swiper-pagination-bullet-active/swiper-pagination-bullet-active.css);
+@import url(blocks/history/history.css);
+@import url(blocks/about-info/about-info.css);
+@import url(blocks/tech/tech.css);

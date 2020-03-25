@@ -1,0 +1,12 @@
+@import url(../../vendor/font.css);
+@import url(../../vendor/normalize.css);
+@import url(../main/blocks/footer/footer.css);
+@import url(../main/blocks/root/root.css);
+@import url(../main/blocks/header/header.css);
+@import url(../main/blocks/menu/menu.css);
+@import url(../about/blocks/about-info/about-info.css);
+@import url(../main/blocks/about/about.css);
+
+body {
+    background-color: #E5E5E5;
+  }

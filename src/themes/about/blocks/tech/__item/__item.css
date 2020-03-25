@@ -1,0 +1,7 @@
+.tech__item {
+    margin-right: 39px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-top: 19px;
+}

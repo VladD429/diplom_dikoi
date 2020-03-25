@@ -3,7 +3,7 @@
 @import url(./__icons/__icons.css);
 @import url(./__nav/__nav.css);
 @import url(./__link/__link.css);
-
+@import url(./__icon/_github/_github.css);
 .footer {
     height: 80px;
     background: #FFFFFF;

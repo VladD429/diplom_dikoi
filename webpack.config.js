@@ -8,6 +8,7 @@ module.exports = {
     entry: { 
         main: './src/index.js',
         about: './src/about.js',
+        analyze: './src/analyze.js'
 },
     output: {
         path: path.resolve(__dirname, 'dist'),
@@ -57,6 +58,12 @@ module.exports = {
             template: './src/about.html',
             filename: 'about.html',
             chunks: 'about.html'
+        }),
+        new HtmlWebpackPlugin({ 
+            inject: false,
+            template: './src/analyze.html',
+            filename: 'analyze.html',
+            chunks: 'analyze.html'
         }),
         new WebpackMd5Hash(),
         new OptimizeCssAssetsPlugin({

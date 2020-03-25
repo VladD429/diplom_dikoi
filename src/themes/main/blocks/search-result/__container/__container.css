@@ -1,4 +1,8 @@
 .search-result__container {
-    width: 100%;
-    background: #F5F6F7;
+    max-width: 1232px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
 }
