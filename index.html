@@ -4,65 +4,86 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Cервис для анализа происходящих в мире событий. Его задача — установить, насколько популярны новости на определённую тему.">
+    <meta name="description"
+        content="Cервис для анализа происходящих в мире событий. Его задача — установить, насколько популярны новости на определённую тему.">
     <meta name="author" content="VladD">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Main</title>
     <base target="_blank">
-    <link rel="stylesheet" href="main.fcb58e561e50a6b22621.css">
+    <link rel="stylesheet" href="main.12549ce7939785fbe039.css">
 </head>
 
 <body>
     <div class="root">
-        <header class="header">
+        <header class="header header_main">
             <span class="header__title">NewsAnalyzer</span>
-            <nav>
-                <ul class="menu">
-                    <li class="menu__item menu__item_active"><a class="menu__link" href="index.html">Главная</a></li>
-                    <li class="menu__item"><a class="menu__link menu__link_unactive" href="about.html">О проекте</a></li>
-                </ul>
-            </nav>    
+            <ul class="menu">
+                <li class="menu__item menu__item_active"><a class="menu__link" href="index.html">Главная</a></li>
+                <li class="menu__item"><a class="menu__link menu__link_unactive" href="about.html">О проекте</a></li>
+            </ul>
         </header>
 
         <section class="search">
             <img src="images/search.jpg" alt="main page photo" class="search__image">
             <h1 class="search__title">Что в мире творится?</h1>
-            <span class="search__text">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях за прошедшую неделю.</span>
+            <span class="search__text">Введите в поиске любую тему и узнайте, насколько популярной она была в новостях
+                за прошедшую неделю.</span>
             <form class="search__form">
                 <input type="text" name="search" class="search__input" placeholder="Введите тему новости">
                 <button class="search__button">Искать</button>
             </form>
         </section>
 
-        <div class="search-result__container">
-            <section class="search-result">
-               <div class="search-result__head">
+
+        <section class="search-result">
+
+            <div class="search-result__container">
+                <div class="search-result__head">
                     <h2 class="search-result__title">Результаты поиска</h2>
-                    <p class="search-result__analyze"><a class="search-result__link" href="analyze.html">Посмотреть аналитику &gt;</a></p>
+                    <p class="search-result__analyze"><a class="search-result__link" href="analyze.html">Посмотреть
+                            аналитику &gt;</a></p>
                 </div>
                 <div class="search-result__list">
                     <div class="search-result__card">
 
                     </div>
                     <div class="search-result__card">
-                        
+
                     </div>
                     <div class="search-result__card">
-                        
+
                     </div>
                     <div class="search-result__card">
-                        
+
                     </div>
                     <div class="search-result__card">
-                        
+
                     </div>
                     <div class="search-result__card">
-                        
+
                     </div>
                 </div>
                 <button class="search-result__button">Показать еще</button>
-            </section>
-        </div>    
+            </div>
+
+            <div class="preloader">
+                <div class="preloader__circle">
+
+                </div>
+                <p class="preloader__title">
+                    Идет поиск новостей...
+                </p>
+            </div>
+
+            <div class="not-found">
+                <img src="images/not-found.png" alt="not found img" class="not-found__image">
+                <h3 class="not-found__title">Ничего не найдено</h3>
+                <p class="preloader__title preload__title_not-found">
+                    К сожалению по вашему запросу ничего не найдено.
+                </p>
+            </div>
+
+        </section>
 
         <section class="about">
             <div class="about__avatar">
@@ -70,8 +91,11 @@
             </div>
             <div class="about__content">
                 <h1 class="search-result__title">Об авторе</h1>
-                <p class="about__text">Это блок с описаением автора проекта. Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владете.</p>
-                <p class="about__text">Также можно рассказать о процессе обучения в Практикуме, чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
+                <p class="about__text">Это блок с описаением автора проекта.
+                    Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владете.
+                </p>
+                <p class="about__text">Также можно рассказать о процессе обучения в Практикуме,
+                    чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
             </div>
         </section>
 
@@ -84,11 +108,17 @@
                     <li><a class="footer__link" href="http://www.praktikum.yandex.ru">Яндекс.Практикум</a></li>
                 </ul>
             </nav>
-            <div class="footer__icons"></div>
+
+            <div class="footer__icons">
+                <a href="http://www.github.com"><img src="images/github.png" alt="github icon"
+                        class="footer__icon footer__icon_github"></a>
+                <a href="http://www.facebook.com"><img src="images/facebook.png"
+                        alt="facebook icon" class="footer__icon"></a>
+            </div>
         </footer>
 
     </div>
-        <script src="main.31b88c345acc1793c407.js"></script>
+    <script src="main.31b88c345acc1793c407.js"></script>
 </body>
 
 </html>
