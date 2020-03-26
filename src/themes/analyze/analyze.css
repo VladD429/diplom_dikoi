@@ -16,7 +16,6 @@
 @import url(./blocks/graph-scale/graph-scale.css);
 @import url(./blocks/graph-chat/graph-chat.css);
 @import url(./blocks/graph-date/graph-date.css);
-@import url(./blocks/graph/__data/__data.css);
 @import url(./blocks/graph-header/graph-header.css);
 
 body {
