@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Analyze</title>
     <base target="_blank">
-    <link rel="stylesheet" href="analyze.e240f9dcdb0d32d22873.css">
+    <link rel="stylesheet" href="analyze.917e57f2cadfee71b6f0.css">
 </head>
 
 <body>
@@ -19,22 +19,83 @@
         <header class="header header_about">
             <span class="header__title header__title_about">NewsAnalyzer</span>
             <ul class="menu">
-                <li class="menu__item"><a class="menu__link menu__link_unactive" href="index.html">Главная</a></li>
-                <li class="menu__item"><a class="menu__link menu__link_unactive" href="about.html">О проекте</a></li>
+                <li class="menu__item"><a class="menu__link menu__link_unactive menu__link_analyze" href="index.html">Главная</a></li>
+                <li class="menu__item"><a class="menu__link menu__link_unactive menu__link_analyze" href="about.html">О проекте</a></li>
             </ul>
         </header>
 
         <section class="about-info">
 
-            <div class="about-info__wrapper">
+            <div class="about-info__wrapper about-info__wrapper_analyze">
 
-                <p>Главная/Аналитика</p>
+                <p class="about__text about__text_analyze">Главная <span class="about__text_light">/ Аналитика</span></p>
 
                 <h1 class="search-result__title">
                     Вы спросили: «Путешествия»
                 </h1>
-                <p class="about__text">Новостей за неделю: 34 324</p>
-                <p class="about__text">Упоминаний в загаловках: 235</p>
+                <p class="analyze-text">Новостей за неделю: <span class="analyze-text__bold">34 324</span></p>
+                <p class="analyze-text">Упоминаний в загаловках: <span class="analyze-text__bold">235</span></p>
+
+            </div>
+
+        </section>
+
+        <section class="analyze-by-day">
+
+            <div class="analyze-by-day__wrapper">
+
+                <h3 class="analyze-by-day__title">Аналитика по дням</h3>
+
+                <div class="graph">
+
+                    <div class="graph__title">
+                        <p class="graph-header graph-header__date">Дата (август)</p>
+                        <p class="graph-header">Кол-во упоминаний</p>
+                    </div>
+
+                    <div class="graph__wrapper">
+
+                        <div class="graph-date">
+                            <p class="graph-date__item">19, пн</p>
+                            <p class="graph-date__item">20, пн</p>
+                            <p class="graph-date__item">21, пн</p>
+                            <p class="graph-date__item">22, пн</p>
+                            <p class="graph-date__item">23, пн</p>
+                            <p class="graph-date__item">24, пн</p>
+                            <p class="graph-date__item">25, пн</p>
+                        </div>
+
+                        <div class="graph__data">
+                            <div class="graph-scale">
+                                <p class="graph-scale__item">0</p>
+                                <p class="graph-scale__item">25</p>
+                                <p class="graph-scale__item">50</p>
+                                <p class="graph-scale__item">75</p>
+                                <p class="graph-scale__item">100</p>
+                            </div>
+
+                            <div class="graph-chat">
+                                <div class="graph-chat__item"><span class="graph-chat__number">15</span></div>
+                                <div class="graph-chat__item"><span class="graph-chat__number">18</span></div>
+                                <div class="graph-chat__item"><span class="graph-chat__number">11</span></div>
+                                <div class="graph-chat__item"><span class="graph-chat__number">39</span></div>
+                                <div class="graph-chat__item"><span class="graph-chat__number">45</span></div>
+                                <div class="graph-chat__item"><span class="graph-chat__number">73</span></div>
+                                <div class="graph-chat__item"><span class="graph-chat__number">34</span></div>
+                            </div>
+
+                            <div class="graph-scale">
+                                <p class="graph-scale__item">0</p>
+                                <p class="graph-scale__item">25</p>
+                                <p class="graph-scale__item">50</p>
+                                <p class="graph-scale__item">75</p>
+                                <p class="graph-scale__item">100</p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
 
             </div>
 
