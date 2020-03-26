@@ -4,6 +4,7 @@
 @import url(__link/_unactive/_unactive.css);
 @import url(__link/_active/_active.css);
 @import url(__item/_active/_black/_black.css);
+@import url(__link/_analyze/_analyze.css);
 
 
 .menu {

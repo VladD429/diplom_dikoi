@@ -1,0 +1,35 @@
+.graph-chat__item {
+    height: 24px;
+    width: 50%;
+    background: #2F71E5;
+    display: flex;
+    align-items: center;
+}
+
+.graph-chat__item:nth-child(1) {
+    width: 15%;
+}
+
+.graph-chat__item:nth-child(2) {
+    width: 18%;
+}
+
+.graph-chat__item:nth-child(3) {
+    width: 11%;
+}
+
+.graph-chat__item:nth-child(4) {
+    width: 39%;
+}
+
+.graph-chat__item:nth-child(5) {
+    width: 45%;
+}
+
+.graph-chat__item:nth-child(6) {
+    width: 73%;
+}
+
+.graph-chat__item:nth-child(7) {
+    width: 34%;
+}

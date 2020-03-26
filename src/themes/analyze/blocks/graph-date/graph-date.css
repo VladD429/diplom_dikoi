@@ -1,12 +1,9 @@
-.about__text {
+.graph-date {
+    width: 104px;
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 18px;
-    line-height: 26px;
+    line-height: 80px;
     color: #1A1B22;
-}
-
-.about__text:last-child {
-    margin-bottom: 0;
 }

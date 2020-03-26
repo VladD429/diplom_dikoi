@@ -1,0 +1,6 @@
+@import url(./__item/__item.css);
+
+.graph-scale {
+    display: flex;
+    justify-content: space-between;
+}
