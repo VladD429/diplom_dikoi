@@ -4,4 +4,18 @@
     font-weight: bold;
     font-size: 20px;
     line-height: 24px;
+    margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .header__title {
+        font-size: 20px;
+        line-height: 24px;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .header__title {
+        font-size: 16px;
+    }
+  }

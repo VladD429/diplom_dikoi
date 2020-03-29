@@ -3,9 +3,8 @@
 @import url(../main/blocks/root/root.css);
 @import url(../main/blocks/header/header.css);
 @import url(../main/blocks/menu/menu.css);
-@import url(../main/blocks/about/about.css);
 @import url(../main/blocks/footer/footer.css);
-@import url(../main/blocks/search-result/search-result.css);
+@import url(../main/blocks/about/about.css);
 @import url(blocks/swiper-container/swiper-container.css);
 @import url(blocks/swiper-slide/swiper-slide.css);
 @import url(blocks/swiper-button/swiper-button.css);

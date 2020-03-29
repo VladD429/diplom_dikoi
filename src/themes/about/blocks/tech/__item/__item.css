@@ -5,3 +5,10 @@
     flex-direction: column;
     padding-top: 19px;
 }
+
+@media screen and (max-width: 450px) {
+    .tech__item {
+        margin-right: 0px;
+    }
+    
+  }

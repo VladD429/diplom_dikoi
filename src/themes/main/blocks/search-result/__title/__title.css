@@ -7,3 +7,16 @@
     color: #1A1B22;
     margin: 0;
 }
+
+@media screen and (max-width: 768px) {
+    .search-result__title {
+        font-size: 30px;
+        line-height: 34px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .search-result__title {
+        margin-bottom: 16px;
+    }
+  }

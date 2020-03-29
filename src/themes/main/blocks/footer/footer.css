@@ -3,13 +3,30 @@
 @import url(./__icons/__icons.css);
 @import url(./__nav/__nav.css);
 @import url(./__link/__link.css);
-@import url(./__icon/_github/_github.css);
+@import url(./__list-item/__list-item.css);
+@import url(./__icon/__icon.css);
+
 .footer {
-    height: 80px;
     background: #FFFFFF;
     display: flex;
+    position: relative;
     justify-content: space-between;
     padding-left: 104px;
     padding-right: 104px;
     align-items: center;
 }
+
+@media screen and (max-width: 900px) {
+    .footer {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    .footer {
+        flex-direction: column-reverse;
+        align-items: baseline;
+        padding-top: 20px;
+    }
+  }

@@ -1,0 +1,19 @@
+.footer__icons {
+    display: flex;
+}
+
+@media screen and (max-width: 760px) {
+    .footer__icons {
+        position: absolute;
+        top: 0;
+        right: 18px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .footer__icons {
+        position: absolute;
+        top: 20px;
+        right: 18px;
+    }
+  }

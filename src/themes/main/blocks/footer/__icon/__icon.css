@@ -1,0 +1,7 @@
+.footer__icon {
+    padding-right: 0px;
+}
+
+.footer__icon:first-child {
+    padding-right: 28px;
+}

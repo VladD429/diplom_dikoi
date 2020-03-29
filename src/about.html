@@ -18,10 +18,11 @@
   <div class="root">
 
     <header class="header header_about">
-      <span class="header__title header__title_about">NewsAnalyzer</span>
+      <p class="header__title header__title_about">NewsAnalyzer</p>
       <ul class="menu">
         <li class="menu__item"><a class="menu__link menu__link_unactive" href="index.html">Главная</a></li>
-        <li class="menu__item menu__item_active_black"><a class="menu__link menu__link_active" href="about.html">О проекте</a></li>
+        <li class="menu__item menu__item_active_black"><a class="menu__link menu__link_active" href="about.html">О
+            проекте</a></li>
       </ul>
     </header>
 
@@ -29,22 +30,26 @@
 
       <div class="about-info__wrapper">
 
-        <h1 class="search-result__title">
+        <h1 class="about-info__title">
           Клиентам
         </h1>
-        <p class="about__text">Этот сайт — дипломный проект студента Яндкс.Практикума. Его цель — показать, чему научился студент,
-           и какими технологиями владеет.</p>
-        <p class="about__text">Вёртска сайта выполнена по методологии БЭМ. Это делает сайт гибким и масштабируемым.
-           Кроме того, добавлять новые страницы и функциальность проще и быстрее, чем в проектах, выполненных по другим методологиям.
-            Также сайт проще и дешевле поддерживать.</p>
-        <p class="about__text">Карточки с новостям приходят с сервера и обрабатываются асихронно. То есть сайт продолжает работать,
-           пока от сервера приходит ответ. Это повышает удобство использования сервиса.</p>
-        <p class="about__text">При создании проекта была использона сборка технологией Webpack. Это современных подход к разработке сайтов. 
-          Код оптимизируется, а значит, сайт работает быстрее. Также настроена сайт работает в старых браузерах. 
-          Даже если посетители — пользователи старых операционных систем у них не будет проблем с отображением. 
+        <p class="about-info__text">Этот сайт — дипломный проект студента Яндкс.Практикума. Его цель — показать, чему
+          научился студент,
+          и какими технологиями владеет.</p>
+        <p class="about-info__text">Вёртска сайта выполнена по методологии БЭМ. Это делает сайт гибким и масштабируемым.
+          Кроме того, добавлять новые страницы и функциальность проще и быстрее, чем в проектах, выполненных по другим
+          методологиям.
+          Также сайт проще и дешевле поддерживать.</p>
+        <p class="about-info__text">Карточки с новостям приходят с сервера и обрабатываются асихронно. То есть сайт
+          продолжает работать,
+          пока от сервера приходит ответ. Это повышает удобство использования сервиса.</p>
+        <p class="about-info__text">При создании проекта была использона сборка технологией Webpack. Это современных
+          подход к разработке сайтов.
+          Код оптимизируется, а значит, сайт работает быстрее. Также настроена сайт работает в старых браузерах.
+          Даже если посетители — пользователи старых операционных систем у них не будет проблем с отображением.
           А значит потенциальная аудитория возрастает.</p>
-        <p class="about__text">Проект был проверен экспертами Яндекс.Практикума. И если вашему бизесу нужен сайт,
-           мы рекомендуем обратиться к этому студенту.</p>
+        <p class="about-info__text">Проект был проверен экспертами Яндекс.Практикума. И если вашему бизесу нужен сайт,
+          мы рекомендуем обратиться к этому студенту.</p>
 
       </div>
 
@@ -53,22 +58,24 @@
     <section class="tech">
 
       <div class="tech__wrapper">
-        <h3 class="search-result__title search-result__title_about">Используемые технологии</h3>
-        <div class="tech__item">
-          <h3 class="tech__title">HTML</h3>
-          <img src="<%=require('./images/html.png').default%>" alt="Html logo" class="tech__logo">
-        </div>
-        <div class="tech__item">
-          <h3 class="tech__title">CSS</h3>
-          <img src="<%=require('./images/css.png').default%>" alt="Css logo" class="tech__logo">
-        </div>
-        <div class="tech__item">
-          <h3 class="tech__title">JavaScript</h3>
-          <img src="<%=require('./images/js.png').default%>" alt="JS logo" class="tech__logo">
-        </div>
-        <div class="tech__item">
-          <h3 class="tech__title">Webpack</h3>
-          <img src="<%=require('./images/webpack.png').default%>" alt="Webpack logo" class="tech__logo">
+        <h3 class="tech__main-title">Используемые технологии</h3>
+        <div class="tech-items">
+          <div class="tech__item">
+            <h3 class="tech__title">HTML</h3>
+            <img src="<%=require('./images/html.png').default%>" alt="Html logo" class="tech__logo">
+          </div>
+          <div class="tech__item">
+            <h3 class="tech__title">CSS</h3>
+            <img src="<%=require('./images/css.png').default%>" alt="Css logo" class="tech__logo">
+          </div>
+          <div class="tech__item">
+            <h3 class="tech__title">JavaScript</h3>
+            <img src="<%=require('./images/js.png').default%>" alt="JS logo" class="tech__logo">
+          </div>
+          <div class="tech__item">
+            <h3 class="tech__title">Webpack</h3>
+            <img src="<%=require('./images/webpack.png').default%>" alt="Webpack logo" class="tech__logo">
+          </div>
         </div>
       </div>
 
@@ -76,12 +83,13 @@
 
     <section class="about">
       <div class="about__avatar">
-        <img src="<%=require('./images/avatar.png').default%>" alt="main page avatar" class="about__photo">
+        <img src="<%=require('./images/avatar.png').default%>" alt="фото автора" class="about__photo">
       </div>
       <div class="about__content">
-        <h1 class="search-result__title">Об авторе</h1>
+        <h1 class="about__title">Об авторе</h1>
         <p class="about__text">Это блок с описаением автора проекта.
-          Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владете.</p>
+          Здесь следует указать, как вас зовут, чем вы занимаетесь, какими технологиями разработки владете.
+        </p>
         <p class="about__text">Также можно рассказать о процессе обучения в Практикуме,
           чему вы тут научились, и чем можете помочь потенциальным заказчикам.</p>
       </div>
@@ -89,9 +97,9 @@
 
     <!-- Swiper -->
     <section class="history">
-      <div class="search-result__head">
-        <h2 class="search-result__title">История коммитов из GitHub</h2>
-        <p class="search-result__analyze"><a class="search-result__link" href="http://www.github.com">Открыть в GitHub &gt;</a></p>
+      <div class="history__head">
+        <h2 class="history__title">История коммитов из GitHub</h2>
+        <p class="history__text"><a class="history__link" href="http://www.github.com">Открыть в GitHub &gt;</a></p>
       </div>
       <div class="swiper-container">
         <div class="swiper-wrapper">
@@ -111,24 +119,28 @@
         <img class="swiper-button-next swiper-button" src="<%=require('./images/slider-control.png').default%>">
         <img class="swiper-button-prev swiper-button" src="<%=require('./images/slider-control-2.png').default%>">
       </div>
+      <a href="http://www.github.com" class="history__button">
+        <p>Открыть в GitHub</p>
+      </a>
 
     </section>
 
     <footer class="footer">
       <p class="footer__copyright">&copy; 2019 Supersite</p>
       <nav class="footer__nav">
-          <ul class="footer__list">
-              <li><a class="footer__link" href="index.html">Главная</a></li>
-              <li><a class="footer__link" href="about.html">О проекте</a></li>
-              <li><a class="footer__link" href="http://www.praktikum.yandex.ru">Яндекс.Практикум</a></li>
-          </ul>
+        <ul class="footer__list">
+          <li class="footer__list-item"><a class="footer__link" href="index.html">Главная</a></li>
+          <li class="footer__list-item"><a class="footer__link" href="about.html">О проекте</a></li>
+          <li class="footer__list-item"><a class="footer__link"
+              href="http://www.praktikum.yandex.ru">Яндекс.Практикум</a></li>
+        </ul>
       </nav>
 
       <div class="footer__icons">
-          <a href="http://www.github.com"><img src="<%=require('./images/github.png').default%>" alt="github icon"
-                  class="footer__icon footer__icon_github"></a>
-          <a href="http://www.facebook.com"><img src="<%=require('./images/facebook.png').default%>"
-                  alt="facebook icon" class="footer__icon"></a>
+        <a href="http://www.github.com" class="footer__icon"><img src="<%=require('./images/github.png').default%>"
+            alt="иконка"></a>
+        <a href="http://www.facebook.com" class="footer__icon"><img src="<%=require('./images/facebook.png').default%>"
+            alt="иконка"></a>
       </div>
     </footer>
 

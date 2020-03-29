@@ -4,6 +4,19 @@
     align-items: center;
     padding-top: 80px;
     padding-bottom: 64px;
-    width: 1232px;
+    width: 100%;
     margin: auto;
 }
+
+@media screen and (max-width: 500px) {
+    .search-result__head {
+        display: block;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .search-result__head {
+        padding-top: 32px;
+        padding-bottom: 40px;
+    }
+  }

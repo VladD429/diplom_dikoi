@@ -1,6 +1,21 @@
 .about__avatar {
-    width: 464px;
-    height: 464px;
-    border-radius: 50%;
     margin-right: 56px;
 }
+
+@media screen and (max-width: 1135px) {
+    .about__avatar {
+        margin-right: 32px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .about__avatar {
+        margin-right: 32px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .about__avatar {
+        margin-right: 0;
+    }
+  }

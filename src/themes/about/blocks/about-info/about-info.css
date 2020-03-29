@@ -1,5 +1,6 @@
 @import url(__wrapper/__wrapper.css);
-@import url(__wrapper/_analyze/_analyze.css);
+@import url(__title/__title.css);
+@import url(__text/__text.css);
 
 .about-info {
     background: #FFF;

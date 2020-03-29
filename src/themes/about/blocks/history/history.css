@@ -1,4 +1,16 @@
+@import url(__head/__head.css);
+@import url(__title/__title.css);
+@import url(__text/__text.css);
+@import url(__link/__link.css);
+@import url(__button/__button.css);
+
 .history {
     background: #F5F6F7;
     padding-bottom: 80px;
 }
+
+@media screen and (max-width: 768px) {
+    .history {
+        padding-bottom: 40px;
+    }
+  }

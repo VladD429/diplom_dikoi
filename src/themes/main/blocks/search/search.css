@@ -4,6 +4,7 @@
 @import url(__form/__form.css);
 @import url(__input/__input.css);
 @import url(__button/__button.css);
+@import url(__wrapper/__wrapper.css);
 
 .search {
     position: relative;

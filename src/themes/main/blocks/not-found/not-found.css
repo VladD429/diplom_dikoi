@@ -1,4 +1,5 @@
 @import url(__image/__image.css);
+@import url(__text/__text.css);
 @import url(__title/__title.css);
 
 .not-found {

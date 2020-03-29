@@ -1,0 +1,18 @@
+.search__wrapper {
+    position: absolute;
+    top: 28%;
+    width: 608px;
+}
+
+@media screen and (max-width: 768px) {
+    .search__wrapper {
+        top: 28%;
+        width: 448px;
+    }
+  }
+
+@media screen and (max-width: 500px) {
+    .search__wrapper {
+    width: 288px;
+    }
+}

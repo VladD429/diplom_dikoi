@@ -1,13 +1,49 @@
 @import url(__avatar/__avatar.css);
 @import url(__content/__content.css);
 @import url(__text/__text.css);
-@import url(__text/_analyze/_analyze.css);
 @import url(__text/_light/_light.css);
+@import url(__photo/__photo.css);
+@import url(__title/__title.css);
 
 .about {
     background: #FFFFFF;
     padding-top: 80px;
     padding-bottom: 80px;
     padding-left: 104px;
+    padding-right: 216px;
     display: flex;
 }
+
+@media screen and (max-width: 1240px) {
+    .about {
+        padding-right: 100px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .about {
+        padding-top: 40px;
+        padding-bottom: 4px;
+        padding-left: 40px;
+    }
+  }
+
+  @media screen and (max-width: 760px) {
+    .about {
+        padding-bottom: 64px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .about {
+        display: block;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .about {
+        padding-bottom: 64px;
+        padding-right: 16px;
+        padding-left: 16px;
+    }
+  }

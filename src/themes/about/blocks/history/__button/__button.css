@@ -1,0 +1,31 @@
+.history__button {
+    display: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    text-align: center;
+    color: #1A1B22;
+    width: 288px;
+    height: 64px;
+    border: 1px solid #1A1B22;
+    box-sizing: border-box;
+    border-radius: 80px;
+    background: #F5F6F7;
+    margin: 0 auto;
+    
+}
+
+.history__button:active {
+    opacity: 0.5;
+    outline: none;
+}
+
+@media screen and (max-width: 320px) {
+    .history__button {
+        display: block;
+        margin-top: 24px;
+        text-decoration: none;
+    }
+  }

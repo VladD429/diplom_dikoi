@@ -10,9 +10,7 @@
 .menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     list-style: none;
-    width: 189px;
     height: 100%;
     margin: 0;
     padding: 0;

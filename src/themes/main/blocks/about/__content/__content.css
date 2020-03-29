@@ -1,4 +1,9 @@
 .about__content {
-    width: 600px;
     padding-top: 56px;
 }
+
+@media screen and (max-width: 768px) {
+    .about__content {
+        padding-top: 0;
+    }
+  }

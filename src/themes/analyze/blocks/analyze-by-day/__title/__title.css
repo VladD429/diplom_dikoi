@@ -8,4 +8,21 @@
     margin: 0;
     padding-bottom: 48px;
     padding-top: 80px;
+    margin-left: 104px;
 }
+
+@media screen and (max-width: 768px) {
+    .analyze-by-day__title {
+        margin-left: 40px;
+        padding-top: 40px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .analyze-by-day__title {
+        margin-left: 16px;
+        font-size: 22px;
+        padding-bottom: 16px;
+        padding-top: 24px;
+    }
+  }
