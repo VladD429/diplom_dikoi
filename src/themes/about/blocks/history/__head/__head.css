@@ -28,6 +28,6 @@
   @media screen and (max-width: 320px) {
     .history__head {
         padding-top: 32px;
-        padding-bottom: 40px;
+        padding-bottom: 0px;
     }
   }

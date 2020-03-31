@@ -25,5 +25,6 @@
   @media screen and (max-width: 320px) {
     .history__title {
         margin-bottom: 16px;
+        width:80%;
     }
   }
