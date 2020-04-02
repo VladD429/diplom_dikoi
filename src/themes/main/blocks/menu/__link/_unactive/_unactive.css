@@ -1,0 +1,12 @@
+.menu__link_unactive {
+    color: #B6BCBF;
+}
+
+.menu__link_unactive:active {
+    color: #FFFFFF;
+}
+
+.menu__link_unactive:hover {
+    color: #1A1B22;
+    transition: 0.7s;
+}

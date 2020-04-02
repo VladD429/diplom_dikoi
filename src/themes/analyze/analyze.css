@@ -1,0 +1,19 @@
+@import url(../../vendor/font.css);
+@import url(../../vendor/normalize.css);
+@import url(blocks/analyze-text/analyze-text.css);
+@import url(../main/blocks/footer/footer.css);
+@import url(../main/blocks/root/root.css);
+@import url(../main/blocks/header/header.css);
+@import url(../main/blocks/menu/menu.css);
+@import url(../main/blocks/about/about.css);
+@import url(./blocks/analyze-by-day/analyze-by-day.css);
+@import url(./blocks/graph/graph.css);
+@import url(./blocks/graph-scale/graph-scale.css);
+@import url(./blocks/graph-chat/graph-chat.css);
+@import url(./blocks/graph-date/graph-date.css);
+@import url(./blocks/graph-header/graph-header.css);
+@import url(./blocks/analyze-info/analyze-info.css);
+
+body {
+    background-color: #E5E5E5;
+  }

@@ -1,0 +1,25 @@
+.analyze-info__text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1A1B22;
+    margin-bottom: 82px;
+}
+
+.analyze-info__text:last-child {
+    margin-bottom: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .analyze-info__text {
+        margin-bottom: 64px;
+    }
+  }
+
+@media screen and (max-width: 320px) {
+    .analyze-info__text {
+        display: none;
+    }
+  }

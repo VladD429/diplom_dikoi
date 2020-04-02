@@ -1,0 +1,31 @@
+.search-result__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 80px;
+    margin-left: 104px;
+    margin-right: 104px;
+}
+
+@media screen and (max-width: 1080px) {
+    .search-result__container {
+        margin-left: 60px;
+        margin-right: 60px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .search-result__container {
+        margin-left: 40px;
+        margin-right: 40px;
+        padding-bottom: 40px;
+    }
+  } 
+
+  @media screen and (max-width: 320px) {
+    .search-result__container {
+        margin-left: 16px;
+        margin-right: 16px;
+        padding-bottom: 32px;
+    }
+  } 

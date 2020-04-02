@@ -1,0 +1,10 @@
+.swiper-pagination {
+    position: static;
+    margin-top: 48px;
+}
+
+@media screen and (max-width: 768px) {
+    .swiper-pagination {
+        margin-top: 32px;
+    }
+  }

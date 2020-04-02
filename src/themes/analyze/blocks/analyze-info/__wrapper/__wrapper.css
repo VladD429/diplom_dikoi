@@ -1,0 +1,29 @@
+.analyze-info__wrapper {
+    width: 57%;
+    padding-top: 161px;
+    padding-bottom: 94px;
+    margin-left: 105px;
+    padding-top: 101px;
+}
+
+@media screen and (max-width: 768px) {
+    .analyze-info__wrapper {
+        width: 91%;
+        margin-left: 40px;
+        padding-top: 90px;
+        padding-bottom: 40px;
+    }
+  } 
+
+  @media screen and (max-width: 450px) {
+    .analyze-info__wrapper {
+        width: 91%;
+        margin-left: 16px;
+    }
+  }
+
+  @media screen and (max-width: 320px) {
+    .analyze-info__wrapper {
+        padding-bottom: 28px;
+    }
+  }

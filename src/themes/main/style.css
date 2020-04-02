@@ -1,0 +1,16 @@
+@import url(../../vendor/font.css);
+@import url(../../vendor/normalize.css);
+@import url(blocks/root/root.css);
+@import url(blocks/header/header.css);
+@import url(blocks/menu/menu.css);
+@import url(blocks/search/search.css);
+@import url(blocks/search-result/search-result.css);
+@import url(blocks/footer/footer.css);
+@import url(blocks/about/about.css);
+@import url(blocks/preloader/preloader.css);
+@import url(blocks/not-found/not-found.css);
+@import url(blocks/search-result/__wrapper/__wrapper.css);
+
+body {
+  background-color: #E5E5E5;
+}

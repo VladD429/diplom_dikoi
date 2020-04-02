@@ -1,0 +1,11 @@
+.analyze-by-day__wrapper {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 40px;
+}
+
+@media screen and (max-width: 320px) {
+    .analyze-by-day__wrapper {
+        padding-bottom: 0px;
+    }
+  }

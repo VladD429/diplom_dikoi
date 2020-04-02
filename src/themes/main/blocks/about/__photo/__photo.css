@@ -1,0 +1,15 @@
+.about__photo {
+    width: 100%;
+}
+
+/*@media screen and (max-width: 1300px) {
+    .about__photo {
+        width: 320px;
+    }
+  }
+
+@media screen and (max-width: 768px) {
+    .about__photo {
+        width: 232px;
+    }
+  }*/

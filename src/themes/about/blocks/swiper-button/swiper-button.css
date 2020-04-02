@@ -1,0 +1,11 @@
+.swiper-button {
+    width: 40px;
+    height: 40px;
+    top: 42%;
+}
+
+@media screen and (max-width: 768px) {
+    .swiper-button {
+        display: none;
+    }
+  }

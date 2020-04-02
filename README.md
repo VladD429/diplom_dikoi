@@ -14,5 +14,3 @@
 3. Java-Script;
 4. WebPack;
 5. GIT;
-
-

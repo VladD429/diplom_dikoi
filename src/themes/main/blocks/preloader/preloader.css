@@ -1,0 +1,7 @@
+@import url(__title/__title.css);
+@import url(__circle/__circle.css);
+
+.preloader {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}

@@ -1,0 +1,9 @@
+.graph-header__date {
+    width: 91px;
+}
+
+@media screen and (max-width: 320px) {
+    .graph-header__date {
+        width: 64px;
+    } 
+  }

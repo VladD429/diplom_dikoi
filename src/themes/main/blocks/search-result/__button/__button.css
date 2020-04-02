@@ -1,0 +1,18 @@
+.search-result__button {
+    background: #FFFFFF;
+    border-radius: 80px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 24px;
+    color: #1A1B22;
+    border: none;
+    width: 288px;
+    height: 64px;
+}
+
+.search-result__button:active {
+    opacity: 0.5;
+    outline: none;
+}

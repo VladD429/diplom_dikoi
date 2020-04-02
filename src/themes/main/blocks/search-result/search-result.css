@@ -1,0 +1,18 @@
+@import url(__head/__head.css);
+@import url(__title/__title.css);
+@import url(__analyze//__analyze.css);
+@import url(__list/__list.css);
+@import url(__card/__card.css);
+@import url(__button/__button.css);
+@import url(__link/__link.css);
+@import url(__container/__container.css);
+@import url(__image/__image.css);
+@import url(__date/__date.css);
+@import url(__news/__news.css);
+@import url(__text/__text.css);
+@import url(__source/__source.css);
+
+.search-result {
+    width: 100%;
+    background: #F5F6F7;
+}

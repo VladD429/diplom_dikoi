@@ -1,0 +1,17 @@
+@import url(__item/menu__item.css);
+@import url(__item/_active/_active.css);
+@import url(__link/menu__link.css);
+@import url(__link/_unactive/_unactive.css);
+@import url(__link/_active/_active.css);
+@import url(__item/_active/_black/_black.css);
+@import url(__link/_analyze/_analyze.css);
+
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
