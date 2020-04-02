@@ -13,6 +13,7 @@
     width: 100%;
     height: 64px;
     padding-left: 24px;
+    outline: none;
 }
 
 @media screen and (max-width: 768px) {

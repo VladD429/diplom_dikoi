@@ -30,9 +30,10 @@
                 <span class="search__text">Введите в поиске любую тему и узнайте, насколько популярной она была в
                     новостях
                     за прошедшую неделю.</span>
-                <form class="search__form">
+                <form class="search__form" name="search">
                     <input type="text" name="theme" class="search__input" placeholder="Введите тему новости" required>
-                    <button class="search__button">Искать</button>
+                    <div class="search__error">Нужно ввести ключевое слово</div>
+                    <button class="search__button" type="submit">Искать</button>
                 </form>
             </div>
         </section>

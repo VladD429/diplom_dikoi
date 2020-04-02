@@ -5,6 +5,7 @@
 @import url(__input/__input.css);
 @import url(__button/__button.css);
 @import url(__wrapper/__wrapper.css);
+@import url(__error/__error.css);
 
 .search {
     position: relative;
